@@ -1,6 +1,9 @@
 #include<stdio.h>
 
 int main() {
-    printf("hello world");
-    return 0;
+    int length;
+    int breadth;
+    scanf("%d", &length);
+    scanf("%d", &breadth);
+    printf("%d", length * breadth);
 }
