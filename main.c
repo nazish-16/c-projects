@@ -1,9 +1,7 @@
 #include<stdio.h>
 
 int main() {
-    int length;
-    int breadth;
-    scanf("%d", &length);
-    scanf("%d", &breadth);
-    printf("%d", length * breadth);
+    int n, i, j, count = 0;
+    printf("Enter the size of the matrix: ");
+    scanf("%d", &n);
 }
